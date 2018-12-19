@@ -12,23 +12,23 @@ module.exports = {
   },
 
   // babel config
-  module: {
-    rules: [
-      {
-        // anything file that ends with '.js'
-        test: /\.js$/,
-        // except those in "node_modules"
-        exclude: /node_modules/,
-        // transform with babel
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['env']
-          }
-        }
-      }
-    ]
-  },
+  // module: {
+  //   rules: [
+  //     {
+  //       // anything file that ends with '.js'
+  //       test: /\.js$/,
+  //       // except those in "node_modules"
+  //       exclude: /node_modules/,
+  //       // transform with babel
+  //       use: {
+  //         loader: 'babel-loader',
+  //         options: {
+  //           presets: ['env']
+  //         }
+  //       }
+  //     }
+  //   ]
+  // },
 
   // allows us to see how the transpiled js relates to the untranspiled js
   devtool: 'source-map'
