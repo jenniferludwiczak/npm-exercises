@@ -1,0 +1,25 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniferludwiczak/npm-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenniferludwiczak/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/jenniferludwiczak/npm-exercises#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.28.0"
+  }
+}
